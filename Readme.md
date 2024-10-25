@@ -1,3 +1,4 @@
+
 # Método 2: Clonar y añadir mi propio repositorio
 
 Este método consiste en clonar un repositorio existente y luego crear un nuevo repositorio en GitHub para subir los cambios. Los pasos son los siguientes:
