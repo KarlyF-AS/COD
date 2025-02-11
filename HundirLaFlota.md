@@ -70,5 +70,4 @@
         }
     }
 
-  <img src="https://skillsalexa.es/wp-content/uploads/2022/03/51rln5JaWFL.png" width="45%" />
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhFW4K5sc1tJVAZlUa57ptv7lmGK0AYaDUA&s" width="45%" />
+![Imagen 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhFW4K5sc1tJVAZlUa57ptv7lmGK0AYaDUA&s) |
