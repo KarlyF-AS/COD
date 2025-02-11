@@ -70,4 +70,4 @@
         }
     }
 
-![Imagen 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhFW4K5sc1tJVAZlUa57ptv7lmGK0AYaDUA&s)
+![Imagen 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhFW4K5sc1tJVAZlUa57ptv7lmGK0AYaDUA&s) 
