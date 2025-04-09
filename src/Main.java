@@ -17,10 +17,16 @@ public class Main {
         private static final String PLAYER1 = "player1";
         private static final String PLAYER2 = "player2";
 
+        // Constantes para las reglas del juego
         private static final int MIN_SCORE_FOR_ADVANTAGE = 4;
         private static final int WIN_DIFFERENCE = 2;
 
-
+    /**
+     * Obtiene el marcador actual del partido de tenis
+     * @param player1Score Puntos del jugador 1
+     * @param player2Score Puntos del jugador 2
+     * @return String con el marcador formateado
+     */
         else if (m_score1 >=4 || m_score2 >=4)
         {
             int minusResult = m_score1-m_score2;
