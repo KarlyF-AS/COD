@@ -27,16 +27,17 @@ public class Main {
      * @param player2Score Puntos del jugador 2
      * @return String con el marcador formateado
      */
-        else if (m_score1 >=4 || m_score2 >=4)
-        {
-            int minusResult = m_score1-m_score2;
-            if (minusResult==1) score ="Advantage player1";
-            else if (minusResult ==-1) score ="Advantage player2";
-            else if (minusResult>=2) score = "Win for player1";
-            else score ="Win for player2";
+        public static String getScore(int player1Score, int player2Score) {
+            if (isTie(player1Score, player2Score)) {
+                return getTieScore(player1Score);      //Retorna "Love-All", "Deuce", otros...
+            }
+
+            if (isAdvantageOrWin(player1Score, player2Score)) {
+                return getAdvantageOrWinScore(player1Score, player2Score); // → "Advantage" o "Win"
+            }
+            //Si no es empate ni ventaja: retorna marcador normal ... "Thirty-Fifteen"
+            return getRegularScore(player1Score, player2Score);
         }
-        else
-        {
             for (int i=1; i<3; i++)
             {
                 if (i==1) tempScore = m_score1;
