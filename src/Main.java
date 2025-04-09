@@ -56,4 +56,8 @@ public class Main {
         private static boolean isAdvantageOrWin(int player1Score, int player2Score) {
             return player1Score >= MIN_SCORE_FOR_ADVANTAGE || player2Score >= MIN_SCORE_FOR_ADVANTAGE;
         }
-}
+        // Método que determina ventaja o victoria
+        private static String getAdvantageOrWinScore(int player1Score, int player2Score) {
+            int scoreDifference = player1Score - player2Score;
+
+        }
