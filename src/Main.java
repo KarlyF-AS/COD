@@ -42,12 +42,9 @@ public class Main {
             private static boolean isTie(int player1Score, int player2Score) {
                 return player1Score == player2Score;
             }
-                    case 0:
-                        score+="Love";
-                        break;
-                    case 1:
-                        score+="Fifteen";
-                        break;
+            // Método que devuelve el marcador cuando hay empate
+            private static String getTieScore(int score) {
+                switch (score) {
                     case 2:
                         score+="Thirty";
                         break;
