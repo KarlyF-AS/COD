@@ -2,30 +2,16 @@ public class Main {
     /**
      * Refactorizando un metodo para devolver la puntuacion de tenis
      */
-    public static String getScore(int player1Score, int player2Score)
-        String score = "";
-        int tempScore=0;
+    public static String getScore(int player1Score, int player2Score){
+    String score = "";
+    int currentScore = 0;
 
-        if (m_score1 == m_score2) {
-            switch (m_score1)
-            {
-                case 0:
-                    score = "Love-All";
-                    break;
-                case 1:
-                    score = "Fifteen-All";
-                    break;
-                case 2:
-                    score = "Thirty-All";
-                    break;
-                case 3:
-                    score = "Forty-All";
-                    break;
-                default:
-                    score = "Deuce";
-                    break;
+        private static final String LOVE = "Love";
+        private static final String FIFTEEN = "Fifteen";
+        private static final String THIRTY = "Thirty";
+        private static final String FORTY = "Forty";
+        private static final String ALL = "All";
 
-            }
         }
         else if (m_score1 >=4 || m_score2 >=4)
         {
