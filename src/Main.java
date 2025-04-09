@@ -1,8 +1,8 @@
 public class Main {
     /**
-     * metodo para devolver la puntuacion de tenis
+     * Refactorizando un metodo para devolver la puntuacion de tenis
      */
-    public static String getScore(int m_score1, int m_score2) {
+    public static String getScore(int player1Score, int player2Score)
         String score = "";
         int tempScore=0;
 
