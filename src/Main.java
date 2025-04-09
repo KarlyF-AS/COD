@@ -16,7 +16,11 @@ public class Main {
         private static final String WIN_FOR_PREFIX = "Win for ";
         private static final String PLAYER1 = "player1";
         private static final String PLAYER2 = "player2";
-        }
+
+        private static final int MIN_SCORE_FOR_ADVANTAGE = 4;
+        private static final int WIN_DIFFERENCE = 2;
+
+
         else if (m_score1 >=4 || m_score2 >=4)
         {
             int minusResult = m_score1-m_score2;
