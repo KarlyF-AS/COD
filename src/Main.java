@@ -45,15 +45,13 @@ public class Main {
             // Método que devuelve el marcador cuando hay empate
             private static String getTieScore(int score) {
                 switch (score) {
-                    case 2:
-                        score+="Thirty";
-                        break;
-                    case 3:
-                        score+="Forty";
-                        break;
+                    case 0: return LOVE + "-" + ALL;
+                    case 1: return FIFTEEN + "-" + ALL;
+                    case 2: return THIRTY + "-" + ALL;
+                    case 3: return FORTY + "-" + ALL;
+                    default: return DEUCE;
                 }
-            }
-
+        }
         }
     return score;
     }
