@@ -63,4 +63,3 @@ public class MainTest {
         Assertions.assertEquals("Forty-Thirty", Main.getScore(3, 2));
     }
 }
-

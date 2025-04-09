@@ -11,11 +11,16 @@ public class Main {
 
     private static String getTieScore(int score) {
         switch (score) {
-            case 0: return "Love-All";
-            case 1: return "Fifteen-All";
-            case 2: return "Thirty-All";
-            case 3: return "Forty-All";
-            default: return "Deuce";
+            case 0:
+                return "Love-All";
+            case 1:
+                return "Fifteen-All";
+            case 2:
+                return "Thirty-All";
+            case 3:
+                return "Forty-All";
+            default:
+                return "Deuce";
         }
     }
 
