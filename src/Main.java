@@ -54,7 +54,6 @@ public class Main {
         }
         // Método que verifica si hay ventaja o victoria
         private static boolean isAdvantageOrWin(int player1Score, int player2Score) {
-            return player1Score >= MIN_SCORE_FOR_ADVANTAGE ||
-                    player2Score >= MIN_SCORE_FOR_ADVANTAGE;
+            return player1Score >= MIN_SCORE_FOR_ADVANTAGE || player2Score >= MIN_SCORE_FOR_ADVANTAGE;
         }
 }
