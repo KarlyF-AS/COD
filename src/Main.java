@@ -57,7 +57,32 @@ public class Main {
             return player1Score >= MIN_SCORE_FOR_ADVANTAGE || player2Score >= MIN_SCORE_FOR_ADVANTAGE;
         }
         // Método que determina ventaja o victoria
-        private static String getAdvantageOrWinScore(int player1Score, int player2Score) {
+        private static String getAdvantageOrWinScore(int player1Score, int player2Score){
             int scoreDifference = player1Score - player2Score;
+            if (scoreDifference == 1) return ADVANTAGE_PREFIX + PLAYER1;
+            if (scoreDifference == -1) return ADVANTAGE_PREFIX + PLAYER2;
+            if (scoreDifference >= WIN_DIFFERENCE) return WIN_FOR_PREFIX + PLAYER1;
 
+            return WIN_FOR_PREFIX + PLAYER2;
         }
+
+        // Método que construye el marcador regular
+        private static String getRegularScore(int player1Score, int player2Score) {
+            StringBuilder score = new StringBuilder();
+            score.append(getScoreName(player1Score));
+            score.append("-");
+            score.append(getScoreName(player2Score));
+            return score.toString();
+        }
+
+        // Método auxiliar para convertir puntos a texto
+        private static String getScoreName(int score) {
+            switch (score) {
+                case 0: return LOVE;
+                case 1: return FIFTEEN;
+                case 2: return THIRTY;
+                case 3: return FORTY;
+                default: return "";
+            }
+        }
+    }
