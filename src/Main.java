@@ -38,12 +38,10 @@ public class Main {
             //Si no es empate ni ventaja: retorna marcador normal ... "Thirty-Fifteen"
             return getRegularScore(player1Score, player2Score);
         }
-            for (int i=1; i<3; i++)
-            {
-                if (i==1) tempScore = m_score1;
-                else { score+="-"; tempScore = m_score2;}
-                switch(tempScore)
-                {
+            // Método que verifica si hay empate
+            private static boolean isTie(int player1Score, int player2Score) {
+                return player1Score == player2Score;
+            }
                     case 0:
                         score+="Love";
                         break;
