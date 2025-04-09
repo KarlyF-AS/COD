@@ -8,3 +8,4 @@ Refactoricé el código original para hacerlo más **legible**, **modular** y **
 - Usé un **array para los nombres de puntuación** ("Love", "Fifteen", etc.) para simplificar.
 - Eliminé el `for` algo confuso que usaba el código original y lo reemplacé por lógica más directa.
 - Mantengo el mismo comportamiento y todos los tests siguen pasando ✅.
+- 
