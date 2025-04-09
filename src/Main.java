@@ -11,7 +11,11 @@ public class Main {
         private static final String THIRTY = "Thirty";
         private static final String FORTY = "Forty";
         private static final String ALL = "All";
-
+        private static final String DEUCE = "Deuce";
+        private static final String ADVANTAGE_PREFIX = "Advantage ";
+        private static final String WIN_FOR_PREFIX = "Win for ";
+        private static final String PLAYER1 = "player1";
+        private static final String PLAYER2 = "player2";
         }
         else if (m_score1 >=4 || m_score2 >=4)
         {
